@@ -1,0 +1,124 @@
+@import "~@fontsource/noto-sans";
+
+.mainScreenContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainScreen {
+  width: 823px;
+  height: 367px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 274px;
+  height: 48px;
+  background: #783ae1;
+  color: white;
+  font-size: 16px;
+  /* padding: 10px 16px 10px 16px; */
+  margin-top: 75px;
+  font-family: PT Root UI;
+  line-height: 25.6px;
+  font-family: "Noto Sans";
+}
+
+.button:hover {
+  background-color: #a88ef0;
+}
+
+.button:active {
+  background-color: #311f63;
+}
+
+.Message {
+  width: 362px;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Noto Sans";
+  color: black;
+}
+
+.modal {
+  width: 720px;
+  height: 89px;
+  position: fixed;
+  flex-shrink: 0;
+  border-radius: 10px;
+  top: 75px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff6565;
+  box-shadow: 2px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.errorText {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.NewFileButton {
+  padding: 0;
+  background-color: #6346b4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px 14px 19px 0;
+  width: 164px;
+  height: 36px;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #c0c0c0;
+  overflow: auto;
+}
